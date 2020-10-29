@@ -12,7 +12,7 @@ public class Task5 {
 
     public static void main(String[] args) {
 
-        try (BufferedReader reader = new BufferedReader(new FileReader("data/task5.data"))) { //можно тот же файл что и для предыдущей задачи
+        try (BufferedReader reader = new BufferedReader(new FileReader("data/task5.data"))) {
             String line;
             while ((line = reader.readLine()) != null) {
                 System.out.print("[" + line + "] -> [");
